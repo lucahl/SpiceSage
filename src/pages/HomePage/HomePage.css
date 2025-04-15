@@ -1,0 +1,47 @@
+/* HomePage.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content-main {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .ctaButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #04db2f; /* TRY BUTTON COLOR */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  .ctaButton:hover {
+    background-color: #02c429; /* TRY BUTTON HOVER COLOR */
+    transform: scale(1.05);
+  }
+  
+  
+  

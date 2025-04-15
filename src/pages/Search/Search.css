@@ -1,0 +1,83 @@
+/* Search.css */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Returned recipe list */
+.recipe-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Gap between recipes */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.auth-buttons {
+  align-self: flex-start; /* Align auth buttons to the left */
+  margin-bottom: 20px; /* Space between buttons */
+}
+
+.auth-button {
+  padding: 8px 16px;
+  background-color: #DB04B0; /* AUTH BUTTON COLOR */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.auth-button:hover {
+  background-color: #C4029D; /* AUTH BUTTON HOVER COLOR */
+  transform: scale(1.05);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.header {
+  padding: 10px;
+}
+
+.header h1 {
+  font-size: 2rem; 
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.select-container {
+  margin-top: 10px;
+}
+
+.select-container select {
+  border-radius: 5px;
+}
