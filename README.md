@@ -17,5 +17,5 @@ SpiceSage Website/App
 
 4. The webpage should open automatically:
 
-   Otherwise, you can access it by default be at <http://localhost:3000>
+   Otherwise, you can access it by default at <http://localhost:3000>
 
