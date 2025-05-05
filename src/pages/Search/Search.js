@@ -65,7 +65,7 @@ const Search = () => {
 
   const handleSaveRecipe = async (uri) => {
     try {
-        await axios.post(`https://api.edamam.com/api/recipes/v2/users/${user.email}`, { uri });
+        await axios.post(`${process.env.REACT_APP_RECIPE_API_URL}/users/${user.email}`, { uri });
       console.log('Recipe saved!');
     } catch (error) {
       console.log("Recipe already saved!")
